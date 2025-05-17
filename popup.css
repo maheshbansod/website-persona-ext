@@ -1,21 +1,46 @@
 body {
-  width: 200px;
-  padding: 10px;
-}
-
+  width: 300px;
+  padding: 20px;
+  background-color: #1e272e;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  border: 1px solid #34495e;
 #persona-list {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .persona-button {
   display: block;
-  margin-bottom: 5px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  background-color: #eee;
+  border: none;
+  padding: 10px 15px;
+  background: linear-gradient(to right, #4a69bd, #6a89cc);
+  color: #ffffff;
+  border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
 .persona-button:hover {
-  background-color: #ddd;
+  background: linear-gradient(to right, #6a89cc, #4a69bd);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+#reset-button {
+    background-color: #22a6b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#reset-button:hover {
+    background-color: #33d9dc;
+}
+
+  border-radius: 5px;
+  cursor: pointer;
 }
