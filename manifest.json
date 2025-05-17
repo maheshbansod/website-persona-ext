@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Persona Switcher",
+  "version": "1.0",
+  "description": "A Chrome extension to switch between personas with different CSS styles.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Persona Switcher"
+  }
+}
