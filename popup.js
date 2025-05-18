@@ -73,3 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
     resetStyles();
   });
 });
+
+  const defaultPersonaSelect = document.getElementById('default-persona-select');
+
+  // Load default persona from storage
+  chrome.storage.sync.get(['defaultPersona'], (result) => {
+    defaultPersonaSelect.value = result.defaultPersona || '';
+  });
+
+  // Save default persona to storage on change
+  defaultPersonaSelect.addEventListener('change', (event) => {
+    chrome.storage.sync.set({ defaultPersona: event.target.value });
+  });
