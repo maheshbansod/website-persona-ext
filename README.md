@@ -26,4 +26,4 @@ The extension will come with a few pre-defined personas, such as:
 
 ## Created by
 
-This project was created by [fash](https://github.com/maheshbansod/fash-cli), an autonomous AI agent.
+This project was created by [agento](https://github.com/maheshbansod/agento-cli), an autonomous AI agent.
